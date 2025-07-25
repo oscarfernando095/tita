@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tienda de Ropa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .producto {
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 15px;
+            text-align: center;
+            width: 250px;
+            height:350px;
+        }
+        .producto img {
+            max-width: 100%;
+            height: auto;
+        }
+        .producto h3 {
+            font-size: 1.5rem;
+            color: #333;
+        }
+        .producto p {
+            color: #777;
+        }
+        .producto .precio {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #e74c3c;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TITA</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container" id="productos">
+        <div class="producto">
+            <img src="/img/ropa1.jpg" alt="Producto 1">
+            
+            <h3>Camiseta Casual</h3>
+            <p>Comodidad y estilo para el día.</p>
+            <span class="precio">$25.99</span>
+            
+        </div>
+        <div class="producto">
+            <img src="img/ropa1.jpg" alt="Producto 2">
+            <h3>Jeans de Mezclilla</h3>
+            <p>Perfectos para cualquier ocasión.</p>
+            <span class="precio">$49.99</span>
+            
+        </div>
+        <div class="producto">
+            <img src="img/ropa1.jpg" alt="Producto 3">
+            <h3>Chaqueta de Invierno</h3>
+            <p>Mantente abrigado con estilo.</p>
+            <span class="precio">$79.99</span>
+        </div>
+    </div>
+    <div class="container" id="productos">
+        <div class="producto">
+            <img src="/img/ropa1.jpg" alt="Producto 1">
+            
+            <h3>Camiseta Casual</h3>
+            <p>Comodidad y estilo para el día.</p>
+            <span class="precio">$25.99</span>
+            
+        </div>
+        <div class="producto">
+            <img src="img/ropa1.jpg" alt="Producto 2">
+            <h3>Jeans de Mezclilla</h3>
+            <p>Perfectos para cualquier ocasión.</p>
+            <span class="precio">$49.99</span>
+            
+        </div>
+        <div class="producto">
+            <img src="img/ropa1.jpg" alt="Producto 3">
+            <h3>Chaqueta de Invierno</h3>
+            <p>Mantente abrigado con estilo.</p>
+            <span class="precio">$79.99</span>
+        </div>
+    </div>
+
+    <footer id="contacto">
+        <img src="img/whatsapp.png" alt="" width="30px" height="30px">
+        <div>1122713353</div>
+        <p>Contáctanos al correo: ventas@tiendaropa.com</p>
+        <p>&copy; 2025 Tienda de Ropa</p>
+    </footer>
+</body>
+</html>
